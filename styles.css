@@ -1,0 +1,41 @@
+body {
+    background-color: red;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+header {
+    font-size: 32px;
+}
+p {
+    font-size: 24px;
+}
+img {
+    width: 50%;
+}
+
+/* Media Query para pantallas medianas (luego la tengo que ver bien, no entendi como funciona del todo) */
+@media (max-width: 768px) {
+    body {
+        background-color: green;
+    }
+    p {
+        font-size: 18px;
+    }
+    img {
+        width: 70%;
+    }
+}
+
+/* Media Query para pantallas pequeñas */
+@media (max-width: 425px) {
+    body {
+        background-color: blue;
+    }
+    p {
+        font-size: 14px;
+    }
+    img {
+        width: 100%;
+    }
+}
